@@ -8,7 +8,7 @@ pipeline {
 
             steps {
 
-                bat 'javac pg.java'
+                bat 'javac ia.java'
 
             }
 
@@ -18,7 +18,7 @@ pipeline {
 
             steps {
 
-                bat 'java pg'
+                bat 'java ia'
 
             }
 
